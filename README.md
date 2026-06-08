@@ -41,8 +41,7 @@ reales de movilidad más que al ruido operacional del sistema.
 ---
 
 <br>
-
-# 🇺🇸 English version
+#### 🇺🇸 English version
 # Bicing Barcelona System Analysis (2020–2024)
 
 Exploratory and visual analysis of Barcelona's public bike-sharing service
