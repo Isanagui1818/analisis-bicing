@@ -40,7 +40,6 @@ reales de movilidad más que al ruido operacional del sistema.
 
 ---
 <br>
-🇺🇸 English version
 <sub><img src="https://flagcdn.com/16x12/us.png" alt="US"> English version</sub>
 
 
