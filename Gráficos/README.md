@@ -1,4 +1,4 @@
-# Gráficos presentación proyecto final en formato html:
+# Graphics for the final project presentation in HTML format:
 - [Geolocalización estaciones Bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Geolocalizacion_estaciones_bicing.html)
 - [Numero estaciones bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Num_estaciones_bicing_interactivo.html)
 - [Mapa de calor uso bicis bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Mapa_de_calor_uso_bicis.html)
