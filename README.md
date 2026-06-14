@@ -37,15 +37,15 @@ stable across different days and months, suggesting it reflects real
 mobility behaviour rather than operational noise from the redistribution
 system.
 
-# Presentación proyecto final:
+# Final project presentation:
 - [Presentación proyecto final](https://www.canva.com/design/DAGmCY6ezpQ/jewSJEZVutvoF-PRD4fX7Q/edit?utm_content=DAGmCY6ezpQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-# Gráficos presentación proyecto final en formato html:
-- [Geolocalización estaciones Bicing](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/Geolocalizacion_estaciones_bicing.html)
-- [Numero estaciones bicing](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/Num_estaciones_bicing_interactivo.html)
-- [Mapa de calor uso bicis bicing](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/Mapa_de_calor_uso_bicis.html)
-- [Distritos por promedio de uso](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/Distritos_por_promedio_de_uso.html)
-- [Grafico red por distritos](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/grafo_red_distritos.html)
-- [Boxplot renta, distritos, horas de uso](https://isanagui1818.github.io/Proyecto-final-bootcamp/Gráficos/diagrama_cajas_grupos_renta.html)
+# Graphics for the final project presentation in HTML format:
+- [Geolocalización estaciones Bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Geolocalizacion_estaciones_bicing.html)
+- [Numero estaciones bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Num_estaciones_bicing_interactivo.html)
+- [Mapa de calor uso bicis bicing](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Mapa_de_calor_uso_bicis.html)
+- [Distritos por promedio de uso](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/Distritos_por_promedio_de_uso.html)
+- [Grafico red por distritos](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/grafo_red_distritos.html)
+- [Boxplot renta, distritos, horas de uso](https://isanagui1818.github.io/analisis-bicing/Gr%C3%A1ficos/diagrama_cajas_grupos_renta.html)
 
 
