@@ -1,2 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# cambia el formato de jupyer notebook a:
 *.ipynb linguist-language=Python
+
+# Ignorar estos formatos
 *.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+
+# Si tus notebooks generan HTML como output
+output/*.html linguist-vendored
+reports/*.html linguist-vendored
