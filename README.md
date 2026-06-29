@@ -1,50 +1,39 @@
-# Bicing Barcelona System Analysis (2020–2024)
+# Bicing Barcelona System Analysis
 
-Exploratory and visual analysis of Barcelona's public bike-sharing service
-based on a dataset of **223 million rows** across annual files (2020–2024).
+**🌐 Choose your language · Elige tu idioma**
 
-## Data Pipeline
+| Language / Idioma | Project README |
+|---|---|
+| 🇬🇧 **English** | **[→ README_en.md](README_en.md)** |
+| 🇪🇸 **Español** | **[→ README_es.md](README_es.md)** |
 
-The process started with individual exploration of each annual file:
-removing null values, dropping irrelevant columns, and normalising schemas
-to enable merging all years into a single dataset. Given the data volume,
-the resulting file was compiled into **Parquet format**, significantly
-reducing load and processing times compared to working with CSV files.
+---
 
-## Stratified Sampling
+## About the bilingual documentation
 
-Processing the full dataset for heat map generation was not feasible in
-memory. A **10,000-record sample** was built using stratification criteria
-by neighbourhood, time of day, and month of year, ensuring the sample
-remained representative of real usage patterns.
+**EN** — Every documentation folder in this repository ships its README in **two
+parallel files**: `README_en.md` (English) and `README_es.md` (Spanish). There is
+no plain `README.md` inside the subfolders — pick the language suffix you prefer.
+This root `README.md` exists only as a **language selector** and to explain the
+convention. The two language versions are kept **in sync**: any change to one is
+mirrored in the other.
 
-## Proxy Variable and Methodological Limitation
+## Sobre la documentación bilingüe
 
-The dataset does not directly record whether a bike is in use. To
-approximate this, the difference between each station's maximum capacity
-and available bikes at any given moment was used as an estimate of bikes
-in circulation. This approach introduces a known bias: the van system that
-redistributes bikes between stations can create gaps or surpluses that do
-not reflect real demand.
+**ES** — Cada carpeta de documentación de este repositorio incluye su README en
+**dos ficheros paralelos**: `README_en.md` (inglés) y `README_es.md` (español).
+No hay un `README.md` simple dentro de las subcarpetas — elige el sufijo de idioma
+que prefieras. Este `README.md` raíz existe solo como **selector de idioma** y
+para explicar la convención. Las dos versiones se mantienen **sincronizadas**:
+cualquier cambio en una se replica en la otra.
 
-## Key Finding
+## Where to start · Por dónde empezar
 
-Despite this limitation, the visual analysis reveals a consistent
-differential pattern: coastal neighbourhoods with lower income levels
-concentrate usage in the early morning hours, while wealthier
-neighbourhoods show higher activity between 17:00–19:00. The pattern holds
-stable across different days and months, suggesting it reflects real
-mobility behaviour rather than operational noise from the redistribution
-system.
+| | English | Español |
+|---|---|---|
+| **Overview · Visión general** | [`README_en.md`](README_en.md) | [`README_es.md`](README_es.md) |
+| **Scripts (notebooks)** | [`Script/README_en.md`](Script/README_en.md) | [`Script/README_es.md`](Script/README_es.md) |
+| **Graphics (HTML) · Gráficos (HTML)** | [`Graphics/README_en.md`](Graphics/README_en.md) | [`Graphics/README_es.md`](Graphics/README_es.md) |
 
-# Final project presentation:
-- [Final project presentation](https://www.canva.com/design/DAGmCY6ezpQ/jewSJEZVutvoF-PRD4fX7Q/edit?utm_content=DAGmCY6ezpQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-# Graphics for the final project presentation in HTML format:
-- [Bicing stations geolocation](https://isanagui1818.github.io/analisis-bicing/Graphics/Geolocalizacion_estaciones_bicing.html)
-- [Number of Bicing stations](https://isanagui1818.github.io/analisis-bicing/Graphics/Num_estaciones_bicing_interactivo.html)
-- [Bicing bike usage heatmap](https://isanagui1818.github.io/analisis-bicing/Graphics/Mapa_de_calor_uso_bicis.html)
-- [Districts by average usage](https://isanagui1818.github.io/analisis-bicing/Graphics/Distritos_por_promedio_de_uso.html)
-- [Network graph by districts](https://isanagui1818.github.io/analisis-bicing/Graphics/grafo_red_distritos.html)
-- [Boxplot: income, districts and usage hours](https://isanagui1818.github.io/analisis-bicing/Graphics/diagrama_cajas_grupos_renta.html)
-
+> Academic portfolio project · open Bicing / Open Data Barcelona sources —
+> _Proyecto académico de portfolio · fuentes abiertas de Bicing / Open Data Barcelona._

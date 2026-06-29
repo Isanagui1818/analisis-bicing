@@ -1,2 +1,0 @@
-- El análisis exploratorio es con todo el conjunto de datos de Bicing
-- En la carpeta Sample 10k es el código para trabajar con una muestra de solo 10k de casos de los datos de Bicing
